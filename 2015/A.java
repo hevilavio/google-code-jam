@@ -5,7 +5,7 @@ import java.io.*;
 
 public class A {
 	
-	static boolean dev = !false;
+	static boolean dev = true;
 	public static void main(String[] args) throws Exception {
 
 		Scanner in = dev ? new Scanner(System.in) : new Scanner(new FileInputStream("A-large-practice.in"));
